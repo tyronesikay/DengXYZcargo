@@ -1,17 +1,36 @@
+body{
+  font-size: 100%;
+}
 t1 {
   font-family: fantasy,sans-serif,monospace, cursive;
   background-color: #ec120f;
   font-weight: bolder;
   color:  white ;
-  font-size: 40px;
-  padding: 3px 25px;
-  border-radius: 50px;
+  font-size: 2em;
+  padding: .2em .8em !important;
+  border-radius: 3.1em;
 }
 t2 {
-  font-family: fantasy,sans-serif,monospace, cursive;
+  font-family: sans-serif,monospace, cursive;
   color: #dc7633;
-  font-size: 25px;
+  font-size: 1.5em;
 }
+
+
+@media (max-width: 1000px) {
+    t1 {
+      font-size:1.2em;
+        }
+        t2 {
+          font-size:1em;
+        }
+        h2 {
+          font-size: 1.20em !important;
+        }
+  }
+
+
+
 
 .navbar {
     font-family: fantasy, Montserrat, sans-serif;
@@ -50,11 +69,7 @@ t2 {
 }
 
 
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
-}
+
 
 .carousel {
   max-height: 930px;
@@ -76,15 +91,22 @@ t2 {
     background-color:  #ebf5fb ;
     text-align: center;
     font-family: sans-serif,fantasy,cursive;
-    padding: 100px 25%;
-    font-size: 25px;
+    padding: 6.25em 25%;
+    font-size: 1.65em;
   }
+  @media (max-width: 800px) {
+      .content{
+        padding: 6.25em 10%;
+        font-size: 1.35em;
+      }
+    }
+
 
   .panel{
     padding: 5px 10%;
     text-align: center;
     height: 600px;
-    font-size: 15px;
+    font-size: .65em;
     border: 3px solid #ec120f !important;
   }
 

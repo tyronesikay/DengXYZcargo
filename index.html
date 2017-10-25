@@ -6,7 +6,14 @@
 
 	<title>DengXYZcargo</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="100" />
+-->
+
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -86,9 +93,7 @@
 		<br>
 		<p><i>DengXYZ </i>was established to serve the Filipino-American community in Southern California. When we notice the lack of customer service that some of the well known shipping company provides to their customer, we decided to do something about it.
 			So in 2016 we team up with XYZcargo to form DengXYZcargo, Our mission is to provide excellenct service and treat our customer with utmost respect.
-			<br>---
-			<br>---
-			<br>---
+			<br>
 
 	</div>
 
@@ -107,7 +112,7 @@
 						<t2>Balikbayan Box</t2>
 					</p>
 					<br>
-					<p>We ship various sizes of balikbayan boxes</p>
+					<p>We ship various sizes of Balikbayan boxes</p>
 					<div class="btn-holder">
 
 						<button class="btn btn-primary btn-block" data-toggle="modal" data-target="#sizes">Box Sizes</button>
@@ -122,7 +127,7 @@
 						<t2>Crates</t2>
 					</p>
 					<br>
-					<p>we Ship oversized items that doesn't fit in Balikbayan boxes. Contact us for a quote.</p>
+					<p>We ship oversized items that doesn't fit in Balikbayan boxes. Contact us for a quote.</p>
 					<div class="btn-holder">
 						<button class="btn btn-primary btn-block" data-toggle="modal" data-target="#contactForm">Get Quote</button>
 					</div>
@@ -133,10 +138,10 @@
 				<div class="panel">
 					<img src="img/packing.jpg" alt="Packing">
 					<p>
-						<t2>Pack and Ship</t2>
+						<t2>Consolidation</t2>
 					</p>
 					<br>
-					<p>We can pack your balikbayan boxes. Just send us your item and we will pack it and ship it for you. Contact us for a quote.</p>
+					<p>We can pack your Balikbayan boxes. Just send us your item and we will pack it and ship it for you. Contact us for a quote.</p>
 
 					<div class="btn-holder">
 						<button class="btn btn-primary btn-block" data-toggle="modal" data-target="#contactForm">Get Quote</button>
@@ -164,9 +169,6 @@
 	<div class="modal fade" id="contactForm" role="dialog">
 		<div class="container text-center" style="background-color:  #dc7633 ; margin-top: 20%; padding:10px; width:40%; border-radius: 10px">
 			<!-- Modal content -->
-
-
-
 			<div class="row">
 				<div class="col-sm-6 form-group">
 					<form action="mailto:DengXYZcargo@gmail.com" method="post" enctype="text/plain">
@@ -183,7 +185,11 @@
 	</div>
 
 
-	<!-- Container (Contact Section) -->
+		</div>
+	</div>
+
+
+<!-- Container (Contact Section) -->
 	<div id="contact" class="container-fluid">
 		<div class="content" style="background-color:white">
 
@@ -195,7 +201,15 @@
 						<h2>Give us a Call</h2></p>
 					<p><span class="glyphicon glyphicon-map-marker"></span>Los Angeles, USA</p>
 					<p><span class="glyphicon glyphicon-phone"></span>Phone: 213-590-1294</p>
-					<p><span class="glyphicon glyphicon-envelope"></span>Email: DengXYZcargo@gmail.com</p>
+					<p><span class="glyphicon glyphicon-envelope"></span>Email: <a href="#" data-toggle="popover" data-trigger="hover" title="E-mail" data-content="DengXYZcargo@gmail.com">show</a> </p>
+
+<!-- this script for pop up function -->
+          <script>
+            $(document).ready(function(){
+              $('[data-toggle="popover"]').popover();
+              });
+          </script>
+
 				</div>
 				<div class="col-md-8">
 					<div class="row">
@@ -216,7 +230,7 @@
 
 
 			<div class="pull-right">
-				<h4> Follow us on <a href="https:facebook.com"target="blank"><i class="fa fa-facebook-square fa-2x"style="color:#3b5998"></i></a>
+				<h4> Follow us on <a href="https://www.facebook.com/dengxyzcargo"target="blank"><i class="fa fa-facebook-square fa-2x"style="color:#3b5998"></i></a>
       <a href="https:twitter.com" target="blank"><i class="fa fa-twitter fa-2x"style="color:  #70b8e8 "> </i></a>
       <a href="https:instagram.com" target="blank"><i class="fa fa-instagram fa-2x"style="color:#FF5733"> </i></a>
         </h4>
